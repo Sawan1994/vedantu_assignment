@@ -1,0 +1,57 @@
+.card{
+  padding: 20px 10px;
+  background-color: #fff;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+.repositories__search {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px 0 25px 0px;
+}
+
+.repositories__search_input {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  height: 30px;
+  border-radius: 4px;
+  width: 60%;
+  padding: 0 10px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.repositories__search_input:focus {
+  outline: 0;
+  border-color: #0366d6;
+  box-shadow: 0 0 0 3px rgba(3, 102, 214, 0.3);
+}
+
+.repositories__list_item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 25px 0px;
+}
+
+.repository__name {
+  color: #0366d6;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.repository__description {
+  color: rgba(0, 0, 0, 0.7);
+  width: 60%;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.repository_updated {
+  font-size: 12px;
+  color: #586069;
+  margin: 0;
+}
+
+.repositories__filter{
+  width: 15%;
+  display: inline-block;
+  padding: 0 10px;
+}

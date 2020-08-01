@@ -1,0 +1,95 @@
+.user {
+  padding: 20px 10px;
+  background-color: #fff;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: sticky;
+  top: 20px;
+}
+
+.user__avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.user__avatar > img {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+
+.user__name {
+  font-weight: 500;
+  margin: 0;
+}
+
+.user__login {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.7);
+  letter-spacing: 1px;
+}
+
+.user__bio {
+  margin-bottom: 0;
+}
+
+.user__follower {
+  margin-top: 2px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.user__follower > span {
+  margin-right: 10px;
+}
+
+.user__follower > span > strong {
+  color: #000;
+}
+
+.user__detail_row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user__contact {
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  margin: 3px 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.user__contact > svg {
+  height: 22px;
+  width: 22px;
+}
+.user__contact > span {
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 426px){
+  .user{
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .user__avatar{
+    width: 100px;
+    height: 100px;
+  }
+
+  .user__personal_details{
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
